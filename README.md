@@ -11,7 +11,7 @@ Prototyping Board for Altera MAX7000 CPLDs
 
 ## Introduction
 
-MAX7 Proto is a prototyping board based on Altera MAX7000 series SPLDs. The board has pin headers on both sides, and it can be easily mounted on a breadboard. It also includes a 3.3V LDO, so that MAX7000AE SPLDs can be used. A DIP-8 oscillator socket is provided for the designs that requre a clock.
+MAX7 Proto is a prototyping board based on Altera MAX7000 series CPLDs. The board has pin headers on both sides, and it can be easily mounted on a breadboard. It also includes a 3.3V LDO, so that MAX7000AE CPLDs can be used. A DIP-8 oscillator socket is provided for the designs that requre a clock.
 
 ![MAX7 Proto Assembled Board Side View](images/MAX7_Proto-Side.jpg)
 
@@ -62,7 +62,7 @@ Pin  | Signal Name | Description      | Pin  | Signal Name | Description
 Solder instead of U2 LDO when using a 5V CPLD
 
 #### JP2 - Oscillator Connect
-Solder to connect X1 to CPLD pin 37 / GCLK1
+Solder to connect X1 oscillator to CPLD pin 37 / GCLK1
 
 ### Bill of Materials
 
